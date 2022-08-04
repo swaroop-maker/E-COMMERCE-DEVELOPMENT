@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        input{
+            display:block;
+            margin-top:15px;
+
+        }
+
+        form{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            background-color: aquamarine;
+            padding:20px;
+            text-align: center;    
+        }
+    </style>
+</head>
+<body>
+
+        <form method="POST" action="login.php" >
+
+            <h4>Login</h4>
+
+            <input class="mt-3 form-control" type="text" placeholder="Enter Username" name="username">
+            <input class="mt-3 form-control" type="password" placeholder="Enter Password" name="password">
+
+            <input class="btn btn-success" type="submit" value="Login">
+
+        </form>
+</body>
+</html>
